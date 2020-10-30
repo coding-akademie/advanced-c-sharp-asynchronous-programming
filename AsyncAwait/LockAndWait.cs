@@ -25,10 +25,10 @@ namespace AsyncAwait
         {
             //lock (lockObject)
             //{
-                int n = await Task.Run(() =>
-                {
-                    return 2;
-                });
+            int n = await Task.Run(() =>
+            {
+                return 2;
+            });
             //}
         }
 

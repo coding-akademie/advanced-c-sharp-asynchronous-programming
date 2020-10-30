@@ -15,11 +15,13 @@ namespace AsyncAwait
             {
                 ExceptionVoidAsync();
 
-                // ExceptionTaskAsync();
+                // _ = ExceptionTaskAsync();
 
                 // await ExceptionTaskAsync();
 
-                // await ExceptionAwaitAsync();     
+                // _ = ExceptionAwaitAsync();
+
+                // await ExceptionAwaitAsync();
             }
             catch (Exception ex)
             {
