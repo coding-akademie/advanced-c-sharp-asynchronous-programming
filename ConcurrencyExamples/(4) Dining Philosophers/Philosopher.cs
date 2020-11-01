@@ -57,7 +57,8 @@ namespace ConcurrencyExamples
 
 
 
-        readonly int MAX_WAIT_TIME = 333;
+        readonly int MAX_WAIT_TIME = 33;
+
         protected readonly Random random = new Random();
 
         protected void WaitRandomTime()

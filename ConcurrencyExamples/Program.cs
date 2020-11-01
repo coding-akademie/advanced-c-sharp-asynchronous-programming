@@ -10,7 +10,13 @@ namespace ConcurrencyExamples
 
         static void Main(string[] _)
         {
-            ModifiedCollections();
+            // ModifiedCollections();
+
+            // BankAccount();
+
+            // ProducerConsumer();
+
+            DiningPhilosophers();
         }
 
         private static void ModifiedCollections()
@@ -84,7 +90,8 @@ namespace ConcurrencyExamples
                     stateString += p.ToString();
                 }
 
-                Console.Clear();
+                //Console.Clear();
+
                 Console.WriteLine(stateString);
 
                 Thread.Sleep(100);
