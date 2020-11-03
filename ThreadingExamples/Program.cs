@@ -10,16 +10,16 @@ namespace ThreadingExamples
 
         static void Main(string[] args)
         {
-            (new ThreadCreation()).CreateSomeThreads();
+            // (new ThreadCreation()).CreateSomeThreads();
 
-            // Greet.Greet1();
-            // Console.WriteLine();
-            // Greet.Greet2();
+            //Greet.Greet1();
+            //Console.WriteLine();
+            //Greet.Greet2();
 
             // PrintNumbers.PrintSomeNumbersInParallel();
 
-            // ParallelWork.WorkSync();
-            // ParallelWork.WorkAsync();
+            ParallelWork.WorkSync();
+            ParallelWork.WorkAsync();
         }
 
 
